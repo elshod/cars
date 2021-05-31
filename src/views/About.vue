@@ -1,5 +1,14 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <ul><li v-for="(person, index) of humans" :key='index'>{{person}}</li></ul>
   </div>
 </template>
+<script>
+export default {
+  computed: {
+    humans(){
+      return this.$store.getters.getPeople
+    }
+  }
+}
+</script>

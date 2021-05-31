@@ -1,0 +1,22 @@
+{
+  "cars": [
+    {
+      "name": "Nexia",
+      "color": "#f0a3a3",
+      "comp": "GM",
+      "id": 1
+    },
+    {
+      "name": "Spark",
+      "color": "#3cddda",
+      "comp": "GM",
+      "id": 2
+    },
+    {
+      "name": "Captiva",
+      "color": "#000000",
+      "comp": "GM",
+      "id": 3
+    }
+  ]
+}
